@@ -14,7 +14,15 @@ h1{
 h2,p{ 
     font-family:"Roboto Mono";
 }
-
+.header{
+   content: ;
+   padding: ;
+   margin: ;
+   border: ;
+   image-orientation: left;
+   image-rendering: round;
+   
+}
 .info{
     background-color: #DDB9A3;
 
