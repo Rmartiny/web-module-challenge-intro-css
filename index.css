@@ -14,3 +14,19 @@ h1{
 h2,p{ 
     font-family:"Roboto Mono";
 }
+
+.info{
+    background-color: #DDB9A3;
+
+}
+.campfire{ 
+    align-content: center;
+
+}
+.camper{
+align-content: center;
+}
+
+.footer{
+    background-color: #DDb9a3;
+}
