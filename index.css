@@ -93,16 +93,16 @@ nav a{
     margin-right: 10%;
 }
 .cta{
-    position: relative;
+    position:relative;
 }
 .text, .image{
     display: inline-block;
 }
 .image{
-    width:25%;
+    width:35%;
 }
 .round{
-    border-radius: 60%;
+    border-radius: 50%;
 }
 .text{
     width: 55%;
@@ -132,15 +132,14 @@ nav a{
     margin: 5% auto;
 }
 .bg-img{
-    background-image: url(assets/footer_img.jpg);
+    background-image: url"assets/footer_img.jpg";
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
     width: 100%;
-
-
 }
 .footer{
     background-color: #DDB9A3;
+    padding: 2%;
 }
