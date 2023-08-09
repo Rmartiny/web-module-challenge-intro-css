@@ -99,10 +99,10 @@ nav a{
     display: inline-block;
 }
 .image{
-    width:30%;
+    width:25%;
 }
 .round{
-    border-radius: 25%;
+    border-radius: 60%;
 }
 .text{
     width: 55%;
