@@ -63,7 +63,7 @@ html{
 
 h1{
     font-family:"Chelsea Market";
-    font-size: 5rem;
+    font-size: 6rem;
 }  
 section{
     padding:4% 0 ;
@@ -96,14 +96,25 @@ nav a{
     background-color: #FFCD69;
     margin-right: 10%;
 }
+.cta{
+    position: relative;
+}
 .text, .image{
     display: inline-block;
 }
 .image{
     width:30%;
-
+}
+.round{
+    border-radius: 50%;
 }
 .text{
     width: 55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3%;
+    position:absolute;
 }
+
+
 
