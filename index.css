@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+*{ box-sizing: border-box;
+    border-width: 100%;
+    
+}
 
 html{
  font-size:  62.5%;
@@ -132,7 +136,7 @@ nav a{
     margin: 5% auto;
 }
 .bg-img{
-    background-image: url"assets/footer_img.jpg";
+    background-image: url('assets/footer_img.jpg');
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
