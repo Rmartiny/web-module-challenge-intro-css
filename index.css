@@ -96,7 +96,7 @@ nav a{
     background-color: #FFCD69;
     margin-right: 10%;
 }
-.text .image{
+.text, .image{
     display: inline-block;
 }
 .image{
