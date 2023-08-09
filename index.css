@@ -47,11 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-*{
-    box-sizing: border-box;
-    border: 1px solid grey;
-    max-width: 100%;
-}
+
 html{
  font-size:  62.5%;
 }
@@ -63,7 +59,7 @@ html{
 
 h1{
     font-family:"Chelsea Market";
-    font-size: 6rem;
+    font-size: 5.5rem;
 }  
 section{
     padding:4% 0 ;
@@ -112,9 +108,39 @@ nav a{
     width: 55%;
     margin-left: 5%;
     text-align: center;
-    line-height: 3%;
+    line-height: 3;
     position:absolute;
+    top: 150px;
 }
 
+.info {
+    background-color: #DDB9A3;
+    font: #fff;
+    padding: 2% ;
+
+}.span{
+    font-weight: bold;
+}
+
+.campfire{
+
+    width: 30%;
+    margin: 5% auto;
+}
+.camper{
+    width: 30%;
+    margin: 5% auto;
+}
+.bg-img{
+    background-image: url(assets/footer_img.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
 
 
+}
+.footer{
+    background-color: #DDB9A3;
+}
