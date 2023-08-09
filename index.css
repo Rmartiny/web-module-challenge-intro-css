@@ -96,18 +96,14 @@ nav a{
     background-color: #FFCD69;
     margin-right: 10%;
 }
-.info{
-    background-color: #DDB9A3;
+.text .image{
+    display: inline-block;
+}
+.image{
+    width:30%;
 
 }
-.campfire{ 
-    align-content: center;
-
-}
-.camper{
-align-content: center;
+.text{
+    width: 55%;
 }
 
-.footer{
-    background-color: #DDb9a3;
-}
