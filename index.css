@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border:0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,31 +47,36 @@ table {
 	border-spacing: 0;
 }
 
-
-.orange{
-    color:#FF764E;
+*{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    max-width: 100px;
 }
-.blue{
-    color:#5ED3EB;
+html{
+ font-size:  62.5%;
 }
-.yellow{ 
-    color:#FFCD69
-}
+ body{
+    font-size: 1.6 rem;
+    line-height: 1.5;
+    font-family:"Roboto Mono",monospace;
+ }
 
 h1{
     font-family:"Chelsea Market";
+    font-size: 5rem;
+}  
+section{
+    padding:4% 0 ;
+    width:98%;
+    margin: 0 auto;
 }
-h2,p{ 
-    font-family:"Roboto Mono";
+
+.nav{
+    padding:2% 0;
 }
-.header{
-   content: ;
-   padding: ;
-   margin: ;
-   border: ;
-   image-orientation: left;
-   image-rendering: round;
-   
+
+nav a{
+    display: inline-block;
 }
 .info{
     background-color: #DDB9A3;
